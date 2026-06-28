@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WriteFlow - AI 글쓰기 도우미_수정</title>
+    <!-- Pretendard Font -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-pen-nib"></i> WriteFlow
+            </a>
+            <div class="nav-links">
+                <a href="#features">기능</a>
+                <a href="#pricing">요금제</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="nav-auth">
+                <button class="btn btn-outline">로그인</button>
+                <button class="btn btn-primary">무료 체험</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section class="hero bg-gradient">
+        <div class="container hero-content">
+            <h1 class="hero-title">AI와 함께 더 빠르게<br><span class="text-primary">더 잘 쓰세요.</span></h1>
+            <p class="hero-subtitle">아이디어를 몇 초 만에 완성된 콘텐츠로 바꿔보세요. 창의력이 더욱 빛나는 순간을 경험해보세요.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-large">무료 체험 시작</button>
+                <button class="btn btn-secondary btn-large"><i class="fas fa-play-circle"
+                        style="margin-right: 8px;"></i> 데모 보기</button>
+            </div>
+            <p class="hero-note">신용카드 필요 없음 • 14일 무료 체험</p>
+
+            <div class="hero-image">
+                <!-- Decorative Dashboard Mockup replacing image placeholder -->
+                <div class="mockup-window">
+                    <div class="mockup-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="mockup-sidebar"></div>
+                        <div class="mockup-content">
+                            <div class="skeleton-title"></div>
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text short"></div>
+                            <div class="ai-suggestion">
+                                <i class="fas fa-magic"></i> AI가 문맥에 맞게 다음 문장을 작성 중입니다...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Features Section -->
+    <section id="features" class="features section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">혁신적인 글쓰기 경험</h2>
+                <p class="section-desc">WriteFlow가 제공하는 강력한 기능들로 생산성을 극대화하세요.</p>
+            </div>
+
+            <div class="feature-grid">
+                <!-- Card 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-robot"></i></div>
+                    <h3 class="feature-title">AI 글쓰기 어시스턴트</h3>
+                    <p class="feature-text">클릭 한 번으로 초안부터 완성된 콘텐츠까지 빠르게 생성하세요.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-spell-check"></i></div>
+                    <h3 class="feature-title">언제나 완벽한 문법</h3>
+                    <p class="feature-text">실시간 맞춤법 및 문법 검사로 프로페셔널한 글을 유지하세요.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-sliders-h"></i></div>
+                    <h3 class="feature-title">브랜드 목소리에 맞게 조절</h3>
+                    <p class="feature-text">유머러스하게, 진지하게, 설득력 있게. 톤앤매너를 자유롭게 변경하세요.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-language"></i></div>
+                    <h3 class="feature-title">50개 이상 언어로 작성합니다</h3>
+                    <p class="feature-text">장벽 없는 글로벌 소통. 다양한 언어로 자연스럽게 번역 및 작성합니다.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3 class="feature-title">100개 이상 바로 쓸 수 있는 템플릿</h3>
+                    <p class="feature-text">블로그, 이메일, 광고 카피 등 목적에 맞는 템플릿을 제공합니다.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3 class="feature-title">실시간으로 함께 작업합니다</h3>
+                    <p class="feature-text">팀원들과 함께 문서를 편집하고 즉각적으로 피드백을 공유하세요.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Pricing Section -->
+    <section id="pricing" class="pricing section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">합리적인 요금제</h2>
+                <p class="section-desc">팀의 규모와 목표에 맞는 플랜을 선택하세요.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Free Plan -->
+                <div class="pricing-card">
+                    <h3 class="plan-name">Free</h3>
+                    <div class="plan-price">$0<span class="plan-period">/월</span></div>
+                    <p class="plan-desc">가볍게 AI 글쓰기를 체험해보기</p>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> 월 5개 문서 생성</li>
+                        <li><i class="fas fa-check"></i> 기본 문법 검사</li>
+                        <li><i class="fas fa-check"></i> 이메일 지원</li>
+                        <li class="disabled"><i class="fas fa-times"></i> 고급 AI 모델 접근</li>
+                    </ul>
+                    <button class="btn btn-outline full-width">무료로 시작하기</button>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card popular">
+                    <div class="popular-badge">가장 인기</div>
+                    <h3 class="plan-name">Pro</h3>
+                    <div class="plan-price">$19<span class="plan-period">/월</span></div>
+                    <p class="plan-desc">전문적인 크리에이터와 마케터를 위해</p>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> 무제한 문서 생성</li>
+                        <li><i class="fas fa-check"></i> 고급 AI 기능 활용</li>
+                        <li><i class="fas fa-check"></i> 최우선 고객 지원</li>
+                        <li><i class="fas fa-check"></i> API 연동 지원</li>
+                    </ul>
+                    <button class="btn btn-primary full-width">Pro 체험 시작하기</button>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card">
+                    <h3 class="plan-name">Enterprise</h3>
+                    <div class="plan-price">$49<span class="plan-period">/월</span></div>
+                    <p class="plan-desc">팀 단위의 협업과 맞춤형 AI가 필요한 기업</p>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Pro 플랜 전체 기능</li>
+                        <li><i class="fas fa-check"></i> 기업 맞춤형 AI 학습</li>
+                        <li><i class="fas fa-check"></i> 전담 계정 매니저</li>
+                        <li><i class="fas fa-check"></i> SSO(단일 로그온) 지원</li>
+                    </ul>
+                    <button class="btn btn-outline full-width">영업팀 문의하기</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. FAQ Section -->
+    <section id="faq" class="faq section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">자주 묻는 질문</h2>
+                <p class="section-desc">궁금하신 점이 있다면 확인해보세요.</p>
+            </div>
+
+            <div class="faq-list">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>무료 체험은 어떻게 진행되나요?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>가입 즉시 14일 동안 Pro 플랜의 모든 기능을 무료로 사용해 보실 수 있습니다. 결제 정보 입력은 필요하지 않으며, 체험 기간 종료 후 자동으로 과금되지 않습니다.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>언제든지 구독을 취소할 수 있나요?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>네, 설정 메뉴에서 언제든지 구독을 취소할 수 있습니다. 취소하더라도 남은 결제 주기 동안에는 서비스를 계속 이용하실 수 있습니다.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>제 데이터는 안전한가요?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>당사는 최고 수준의 암호화 기술을 사용하여 고객의 데이터를 안전하게 보호합니다. 귀하가 작성한 콘텐츠는 AI 모델 학습에 사용되지 않습니다.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>환불이 가능한가요?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>연간 결제의 경우 결제 후 14일 이내 요청 시 전액 환불이 가능합니다. 월간 결제는 이미 사용한 기간에 대한 부분 환불은 지원하지 않습니다.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>어떤 결제 수단을 지원하나요?</span>
+                        <div class="faq-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Visa, MasterCard, American Express 등의 주요 신용카드 및 PayPal을 지원합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. CTA Section -->
+    <section class="cta bg-gradient section-padding">
+        <div class="container text-center">
+            <h2 class="cta-title">글쓰기를 혁신할 준비가 되셨나요?</h2>
+            <p class="cta-subtitle">10,000명 이상의 작가와 함께하세요.</p>
+            <button class="btn btn-primary btn-large">무료 체험 시작</button>
+            <p class="cta-note">신용카드 필요 없음</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer-logo"><i class="fas fa-pen-nib"></i> WriteFlow</div>
+            <p class="copyright">&copy; 2026 WriteFlow. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
